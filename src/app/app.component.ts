@@ -4,10 +4,11 @@ import { NuevoComponenteComponent } from "./nuevo-componente/nuevo-componente.co
 import { ComponenteEnLineaComponent } from "./componente-en-linea/componente-en-linea.component";
 import { InterpolacionComponent } from './interpolacion/interpolacion.component';
 import { PadreComponent } from './padre/padre.component';
+import { HijoComponent } from './hijo/hijo.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent],
+  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent, HijoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
