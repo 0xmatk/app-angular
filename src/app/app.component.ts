@@ -9,13 +9,15 @@ import { MostrarMensajeComponent } from './mostrar-mensaje/mostrar-mensaje.compo
 import { ReplicadorComponent } from './replicador/replicador.component';
 import { SaludarComponent } from "./saludar/saludar.component";
 import { ComponenteIfComponent } from "./componente-if/componente-if.component";
+import { AgregarTareaComponent } from "./agregar-tarea/agregar-tarea.component";
+import { ComponenteForComponent } from "./componente-for/componente-for.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent, HijoComponent, MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, ComponenteIfComponent],
+  imports: [RouterOutlet, NuevoComponenteComponent, ComponenteEnLineaComponent, InterpolacionComponent, PadreComponent, HijoComponent, MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, ComponenteIfComponent, AgregarTareaComponent, ComponenteForComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Directiva if en Angular';
+  title = 'Directiva for en Angular';
 }
