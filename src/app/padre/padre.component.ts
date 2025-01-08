@@ -9,4 +9,10 @@ import { HijoComponent } from './hijo/hijo.component';
 })
 export class PadreComponent {
 
+  mensaje: string = '';
+
+  recibirNotificacion(mensajeHijo: string) {
+    this.mensaje = mensajeHijo;
+  }
+  // mensajePadre: string = 'Mensaje desde el componente Padre';
 }
